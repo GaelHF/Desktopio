@@ -1,0 +1,23 @@
+@font-face {
+    font-family: customFont;
+    src: url(assets/customFont.ttf);
+}
+
+body {
+    font-family: customFont;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+
+#main {
+    margin: 5%;
+}
+
+#games {
+    margin: 5%;
+}
+
+#footer {
+    margin: 5%;
+}
