@@ -1,0 +1,33 @@
+{
+  "name": "desktop-io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "GaelHF",
+  "license": "ISC",
+  "description": "Les jeux .io sur pc",
+  "devDependencies": {
+    "electron": "^34.2.0",
+    "electron-builder": "^25.1.8",
+    "vite": "^6.1.1"
+  },
+  "build": {
+    "appId": "ca.gaelhf.io",
+    "productName": "Desktop.io",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "icon": "icon.icns"
+    }
+  }
+}
