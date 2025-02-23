@@ -14,5 +14,5 @@ Desktop Application for io Games
 
 ## Install
 
-You can download the app and play it from [here](https://github.com/GaelHF/Territorial-App)
+You can download the app and play it from [here](https://github.com/GaelHF/Desktopio/releases/latest)
 
